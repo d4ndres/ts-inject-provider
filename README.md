@@ -1,10 +1,11 @@
-# vue-project
+# ts-inject-provide
 
-This template should help get you started developing with Vue 3 in Vite.
+It is not an event bus, it is not Vuex and it is not Pina. It is an example of how I would use vue's inject and provider.
+Excellent for managing an almost decentralized state.
+I invite you to explore the CountProvider, App, EntryEditor and MyJournal files.
+With CounterProvider we develop a wrapper component that provides us with a controlled state.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+![Preview](./public/assets/Info.png)
 
 ## Type Support for `.vue` Imports in TS
 
